@@ -1,4 +1,4 @@
-package May09;
+package May09.Array_2D;
 
 public class Array_2D {
     static void main(String[] args) {

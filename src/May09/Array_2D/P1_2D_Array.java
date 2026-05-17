@@ -1,4 +1,4 @@
-package May09;
+package May09.Array_2D;
 
 import java.util.Arrays;
 import java.util.Scanner;

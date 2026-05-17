@@ -1,4 +1,4 @@
-package May09;
+package May09.Array_2D;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -37,8 +37,6 @@ public class P2 {
             System.out.println("max of each row  = " + max1);
         }
         System.out.println("highest marks " + max);
-
-
 
         /// avg marks per students
 
