@@ -6,8 +6,13 @@ public class P2 {
         /// palindrome
 
         String s = "madam";
-        s.indexOf();
-        if ()
+
+
+       for  (int i = 1; i < s.length()/2; i++) {
+           if (s.charAt(i) != s.charAt(s.length()-1-i)) {
+
+           }
+       }System.out.println(s + " is palindrome");
 
     }
 }
