@@ -18,6 +18,9 @@
 # WHY ? [RELATED TO DIAMOND PROBLEM ]
 # BCZ IT CREATE AMBIGUITY PROBLEM  
 
+# case [if parent and child have same method ][child method will be callled by jvm]
+
+
 
 # SOLID PRINCIPLE []
 1. SINGLE RESPONSIBILITY 
