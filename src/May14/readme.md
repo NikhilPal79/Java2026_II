@@ -10,7 +10,7 @@
 2. git status 
 3. git log 
 4. git add .
-5. git commit -m "anything"
+5. git commit -m "anything" [snapshot of code repository at that point in time ]
 6. git push 
 
 # BRANCH [independent line of development]
@@ -20,8 +20,8 @@ not to disturb our main branch
 3-4 type of branch
 main  branch--------------------------------------------->production /customer
 staging branch------------------------------------------> pre-production
-feature branch ------------------------------------------->
 developers branch -----------------------------------------> for testing/QA
+feature branch ------------------------------------------->
 
 # COMMANDS
 1. git branch
