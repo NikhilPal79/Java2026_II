@@ -1,7 +1,7 @@
 # VERSION CONTROL SYSTEM [is a software tool that records and tracks changes made to files over time.]
 
 # DIFFERENCE BETWEEN GIT AND GITHUB
-# GIT [is the website ]
+# GIT [vsc tool cmd tool  ]
 # GITHUB [is the cloud platform ]
 
 
