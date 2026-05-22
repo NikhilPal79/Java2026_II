@@ -1,4 +1,19 @@
-# BRANCH
+# VERSION CONTROL SYSTEM [is a software tool that records and tracks changes made to files over time.]
+
+# DIFFERENCE BETWEEN GIT AND GITHUB
+# GIT [is the website ]
+# GITHUB [is the cloud platform ]
+
+
+# GIT COMMAND 
+1. git init
+2. git status 
+3. git log 
+4. git add .
+5. git commit -m "anything"
+6. git push 
+
+# BRANCH [independent line of development]
 not to disturb our main branch
 
 
