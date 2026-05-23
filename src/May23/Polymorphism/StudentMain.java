@@ -5,6 +5,6 @@ public class StudentMain {
 
         Student s1 = new Student("Raj", 91);
 
-        System.out.println(s1.toString());
+        System.out.println(s1);
     }
 }

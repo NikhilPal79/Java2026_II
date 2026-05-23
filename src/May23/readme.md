@@ -26,3 +26,5 @@ ONE CLASS CONTAINS ANOTHER CLASS OBJECT
 2. RUN TIME POLYMORPHISM  [METHOD OVERRIDING][dynamic bindng] [same name and different implementation and this is achieved in when there is inheritance]
 --> method that supposed to be called is evaluate at run time 
 
+# UPCASTING []
+
