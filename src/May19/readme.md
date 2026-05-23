@@ -5,7 +5,7 @@
 4. ENCAPSULATION [bundling the data and method in single unit]
 
 
-# INHERITANCE [extends ]
+# INHERITANCE [extends]
 # why ?
 1. dry [don't repeat yourself]
 2. code reusability 
@@ -20,11 +20,14 @@
 
 # case [if parent and child have same method ][child method will be callled by jvm]
 
+# WHEN TO DO INHERITANCE ?
+WHEN THERE IS A RELATIONSHIP BETWEEN PARENT AND CHILD CLASS 
+
 
 
 # SOLID PRINCIPLE []
-1. SINGLE RESPONSIBILITY 
-2. OPEN CLOSED 
+1. SINGLE RESPONSIBILITY [class should have single responsibility]
+2. OPEN/CLOSED [open for extension but closed for modification ]
 3. LISKOV SUBSTITUTION 
 4. INTERFACE SEGREGATION 
 5. DEPENDENCY INVERSION 
