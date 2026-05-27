@@ -20,7 +20,12 @@ public class BankAccount {
     }
 
     void showBalance() {
-        System.out.println("Your balance is: " + this.balance);
+        if (this.balance <= 0 && this.balance < -1) {
+            System.out.println("Insufficient balance");
+        }else  {
+            System.out.println("Your balance is " + this.balance);
+        }
+
     }
 
     public double getBalance() {

@@ -10,7 +10,7 @@ public class AccountMain {
         ba.showBalance();
 
 
-        ba.withdraw(1000.0);
+        ba.withdraw(5550.0);
         ba.showBalance();
 
         ba.setBalance(8000.0);
