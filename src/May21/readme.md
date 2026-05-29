@@ -22,6 +22,17 @@ FEATURE B ====================>SHORT LIVE[1-2 DAY]
 
 main -> release -> developer -> feature -> developer -> release [regression testing]-> production -> main 
 
+
+# BRANCH COMMANDS 
+1. git branch 
+2. git branch name [creating a new branch]
+3. git checkout name [ move to another branch]
+4. git checkout -b name [ move to another and creating new branch] 
+5. git branch -d name [delete a branch]
+
+
+
+
 # HOTFIX BRANCH [QUICK FIX IN MAIN BRANCH AND MERGER BACK TO MAIN ]
 
 # BACK MERGE[ MERGE RELEASE BRANCH TO MAIN BRANCH ]
