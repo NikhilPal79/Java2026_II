@@ -4,7 +4,7 @@
 
 
 2. HAS A RELATION [COMPOSITION ][COMPOSITION IS LOOSLY COUPLE ]
-ONE CLASS CONTAINS ANOTHER CLASS OBJECT 
+# COMPOSITION [ONE CLASS CONTAINS ANOTHER CLASS OBJECT] 
 
 
 
@@ -26,5 +26,10 @@ ONE CLASS CONTAINS ANOTHER CLASS OBJECT
 2. RUN TIME POLYMORPHISM  [METHOD OVERRIDING][dynamic bindng] [same name and different implementation and this is achieved in when there is inheritance]
 --> method that supposed to be called is evaluate at run time 
 
-# UPCASTING []
+# UPCASTING [A a = new B();][object of B class ]
+calling the parent class method [A]
+[B a = new B();]
+calling the child class method [B]
+
+# toString 
 
