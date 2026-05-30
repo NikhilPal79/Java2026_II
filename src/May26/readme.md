@@ -12,6 +12,9 @@ toString is unnecessary [can be removed ]
 # STATIC 
 1. static loaded in memory even before the main method [will call PARENT ]
 2. can not override the static method 
+# Why we cant override static method ?
+because override the happened at run time, and static loaded in memory in compile time even before the main method call.
+
 
 # ENCAPSULATION [wraps the data into a single unit... programmer can control who can access what]
 
