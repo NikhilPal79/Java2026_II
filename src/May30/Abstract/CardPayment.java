@@ -1,6 +1,6 @@
-package May30;
+package May30.Abstract;
 
-public class CardPayment extends Payment{
+public class CardPayment extends Payment {
 
 
     public CardPayment(double balance) {

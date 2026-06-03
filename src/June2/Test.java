@@ -4,12 +4,21 @@ import java.io.FileReader;
 
 public class Test {
     static void main(String[] args) {
-        String s = null;
+        String s = "nikhil";
         /*System.out.println(s.toUpperCase());
 
         int a =10/0;*/
 
+        System.out.println(s);
 
-        FileReader reader = new FileReader("abc.txt");
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
+
+        System.out.println(s.toUpperCase());
+
+
     }
 }

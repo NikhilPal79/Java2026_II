@@ -1,4 +1,4 @@
-package May30;
+package May30.Abstract;
 
 public  abstract class Payment {
 
@@ -9,8 +9,8 @@ public  abstract class Payment {
     }
 
     void receipt(){
-        System.out.println("this is receipt method");
+        System.out.println("this is receipt method");/// concrete method
     }
 
-    abstract void pay(); /// abstract method
+    public abstract void pay(); /// abstract method
 }

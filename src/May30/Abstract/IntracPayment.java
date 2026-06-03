@@ -1,6 +1,6 @@
-package May30;
+package May30.Abstract;
 
-public class IntracPayment extends Payment{
+public class IntracPayment extends Payment {
 
 
     public IntracPayment(double balance) {

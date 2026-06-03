@@ -1,4 +1,4 @@
-package May30;
+package May30.Abstract;
 
 public class PaymentMain {
     public static void main(String[] args) {
