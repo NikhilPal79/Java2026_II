@@ -8,7 +8,8 @@ public class IntracPayment extends Payment {
     }
 
     @Override
-    void pay() {
-        System.out.println("payment done with interact  ");
+    public void pay() {
+        System.out.println("Inside IntracPayment method");
     }
+
 }
