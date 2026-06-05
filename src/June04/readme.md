@@ -44,8 +44,21 @@ Student.java----- javac Student.java ---- Student.class (bytecode)
 
 
 # CI/CD [CONTINUOUS INTEGRATION / CONTINUOUS DEPLOYMENT ]
+It is automated workflow which will help to build, test and deploy the code.
+# CI/CD TOOLS
 - Jenkins
 - GitHub Actions 
+
+# CI [when you write the code & push to GitHub/gitlab,it will get integrated to GitHub. each merge get tested and build ]
+
+# CD [Code is ready to deploy to diff environment ]
+
+# ENVIRONMENT 
+1. Dev
+2. QA 
+3. STAGING 
+4. PROD 
+5. COB [CONTINUITY OF BUSINESS] [replica of PROD]
 
 
 
