@@ -1,6 +1,4 @@
-package June2;
-
-import java.io.FileReader;
+package June02;
 
 public class Test {
     static void main(String[] args) {

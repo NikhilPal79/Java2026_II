@@ -1,4 +1,4 @@
-package June2;
+package June02;
 
 public class ExceptionDemo {
     static void main(String[] args) {

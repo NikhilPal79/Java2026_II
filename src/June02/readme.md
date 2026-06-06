@@ -11,7 +11,7 @@
 # ERROR [it is irreversible condition like power outage]
 
 # HIERARCHY OF EXCEPTION 
-                            THROWABLE 
+                            THROWABLE[interface] 
                                |
            |                                        |
        EXCEPTION                                  ERROR      
@@ -24,8 +24,8 @@
 
 
 #  TYPE OF EXCEPTIONS
-1. COMPILE TIME EXCEPTION [CHECKED AT COMPILE TIME AND MUST BE HANDLED OR DECLARED ]
-2. RUN TIME EXCEPTION [UN-CHECKED EXCEPTION,NOT FORCED TO HANDLE ]
+1. COMPILE TIME EXCEPTION [checked exception][CHECKED AT COMPILE TIME AND MUST BE HANDLED OR DECLARED]
+2. RUN TIME EXCEPTION [unchecked exception ][UN-CHECKED EXCEPTION,NOT FORCED TO HANDLE]
 
 
 
@@ -37,6 +37,11 @@
 5. throws [added to the method signature // dedicating your responsibility to someone else // someone will handle it]
 
 # FLOW OF CATCHING THE EXCEPTION 
+1. JVM detects the exception
+2. create exception object
+3. search matching catch block
+4. execute catch block 
+5. continues program
 
 
 # Why we need multiple catch block ?
@@ -46,5 +51,7 @@
 # Why finally ?
 1. used for cleanup 
 2. connection closing 
+
+
 
 
