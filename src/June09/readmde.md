@@ -1,4 +1,5 @@
-# BOXING AND UNBOXING 
+# BOXING 
+# UNBOXING 
 
 
 
@@ -8,3 +9,20 @@
 3. accept non-primitive data type 
 
 # WHAT ToString method do ? Why we use it ?[imp]
+
+# IMMUTABLE CLASS [] 
+
+# IN ORDER TO GET FULLY IMMUTABLE CLASSES
+1. all the fields should be [private] and [final] --why ---> no access from the outside the class, value assigned ony once 
+2. [class] should be [final] ----> why---> bcz prevent subclass from overriding method 
+3. there should be [no setter] methods we should---> why ---> no modification
+4. override [equals] and [hashcode] method
+
+
+# Final 
+
+# all wrapper classes are final classes ie immutable classes
+
+# final vs finally vs finalize [interview question ]
+
+

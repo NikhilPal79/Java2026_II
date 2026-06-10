@@ -1,35 +1,29 @@
 package June09;
 
-public class Container <K,L>{
+public class Container{
 
-    K studentName;
-    L studentRollNo;
-    K courseName;
+    Student item1;
+    Course item2;
 
-    public Container(K studentName, L studentRollNo, K courseName) {
-        this.studentName = studentName;
-        this.studentRollNo = studentRollNo;
-        this.courseName = courseName;
+
+    public Container(Student item1, Course item2) {
+        this.item1 = item1;
+        this.item2 = item2;
     }
 
-    public K getStudentName() {
-        return studentName;
+    public Student getItem1() {
+        return item1;
     }
 
-    public L getStudentRollNo() {
-        return studentRollNo;
-    }
-
-    public K getCourseName() {
-        return courseName;
+    public Course getItem2() {
+        return item2;
     }
 
     @Override
     public String toString() {
         return "Container{" +
-                "studentName=" + studentName +
-                ", studentRollNo=" + studentRollNo +
-                ", courseName=" + courseName +
+                "item1=" + item1 +
+                ", item2=" + item2 +
                 '}';
     }
 }
