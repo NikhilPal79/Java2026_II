@@ -1,5 +1,5 @@
-# BOXING 
-# UNBOXING 
+# BOXING [converting a primitive into its wrapper object]
+# UNBOXING [converting a wrapper object into primitive] 
 
 
 
@@ -8,9 +8,14 @@
 2. WORK WITH OBJECT 
 3. accept non-primitive data type 
 
-# WHAT ToString method do ? Why we use it ?[imp]
+# What ToString method do ? Why we use it ? Why we override the ToString method ?
 
-# IMMUTABLE CLASS [] 
+
+
+
+# IMMUTABLE CLASS[ whose objects cannot be changed after they are created] 
+1. String 
+2. Wrapper classes 
 
 # IN ORDER TO GET FULLY IMMUTABLE CLASSES
 1. all the fields should be [private] and [final] --why ---> no access from the outside the class, value assigned ony once 
