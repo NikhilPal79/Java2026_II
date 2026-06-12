@@ -1,5 +1,7 @@
 # MERGE CONFLICT [when 2 people change the same line of code, fit gets confused what to accept ]
 
+# How to resolve merge conflict []
+
 # Pull vs fetch  
 1. Pull [fetch + merge ]
 2. Fetch [ ]
