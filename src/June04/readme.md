@@ -1,10 +1,11 @@
 # MERGE CONFLICT [when 2 people change the same line of code, fit gets confused what to accept ]
 
-# How to resolve merge conflict []
+# How to resolve merge conflict [use only git fetch command ]
 
 # Pull vs fetch  
-1. Pull [fetch + merge ]
-2. Fetch [ ]
+1. git pull  [fetch + merge ]
+2. git fetch [Downloads changes from remote but does NOT merge them ]
+3. git merge [Integrates changes into your branch Updates your working directory ]
 
 
 # PR FLOW 
