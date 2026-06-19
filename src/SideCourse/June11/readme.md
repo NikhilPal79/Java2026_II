@@ -11,6 +11,8 @@
 2. copy code from git repo 
 3. select which branch you want to automate 
 4. in trigger [Build periodically][select crone job ] [automated way to push code]
-5. Poll SCM [untriggers the cron scheduler, activate Scm which only pulls recents code when you do change ins src code ][manual code]
+5. Poll SCM [SOURCE CODE MANAGEMENT ] [untriggers the cron scheduler, activate Scm which only pulls recents code when you do change ins src code ][manual code]
+
+
 
 # CRONE JOBS [Time Scheduler ]

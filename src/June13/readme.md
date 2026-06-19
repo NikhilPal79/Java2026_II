@@ -52,12 +52,11 @@ sout(reference)
 # ArrayList is not thread safe [you can not run two program at same point ]
 
 
-
 # Time and Space Complexity [metric to determine efficiency of program ] 
 
 # TIME COMPLEXITY [relation between input size and running time]
 
-# WORST CASE [O(n)]
+# Big O [MAXIMUM TIME PROGRAM TAKE TO RUN ] ====>  WORST CASE [O(n)]
 
 O(1)         — constant [best practice]
 O(log n)     — logarithmic [best practice]
@@ -68,4 +67,5 @@ O(2ⁿ)        — exponential
 
 
 # SPACE COMPLEXITY [ relation between amount of space occupied and input size ]
+space complexity = auxiliary space [temp space] + input space 
 
