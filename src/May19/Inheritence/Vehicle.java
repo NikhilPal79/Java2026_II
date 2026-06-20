@@ -5,7 +5,7 @@ public class Vehicle {
     String color;
 
     public void startAndStop(){
-        System.out.println("Vehicle starts and stops");
+        System.out.println("Method in Vehicle class : Vehicle starts and stops");
     }
 
 }

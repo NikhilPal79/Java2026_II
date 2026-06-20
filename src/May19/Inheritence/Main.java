@@ -8,6 +8,7 @@ public class Main {
 
         Bus bus = new Bus();
         bus.commute();
+        bus.startAndStop();
 
         Truck truck = new Truck();
         truck.transport();

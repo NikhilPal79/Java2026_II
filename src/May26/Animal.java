@@ -8,12 +8,12 @@ public class Animal {
         this.name = name;
     }
 
-    @Override
+    /*@Override
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +
                 '}';
-    }
+    }*/
 
     static void main(String[] args) {
         Animal animal = new Animal("Dog");

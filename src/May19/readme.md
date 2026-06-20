@@ -6,7 +6,7 @@
 
 
 # INHERITANCE [extends]
-# why ?
+# why we use inheritance ?
 1. dry [don't repeat yourself]
 2. code reusability 
 3. Extensibility without modification [OPEN/CLOSED PRINCIPLE]

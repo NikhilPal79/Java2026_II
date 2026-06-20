@@ -6,14 +6,16 @@ toString is unnecessary [can be removed ]
 # lineNo18 [will give you proper value because toString method is already overridden ]
 
 
-# if we call a method [if note present in child class ] [will look child class first then it will look for parent class] 
+# if we call a method [if not present in child class ] [will look child class first then it will look for parent class] 
 
 
 # STATIC 
 1. static loaded in memory even before the main method [will call PARENT ]
 2. can not override the static method 
+
+
 # Why we cant override static method ?
-because override the happened at run time, and static loaded in memory in compile time even before the main method call.
+because override happened at run time, and static loaded in memory in compile time even before the main method call.
 
 
 # ENCAPSULATION [wraps the data into a single unit... programmer can control who can access what]
@@ -22,12 +24,12 @@ because override the happened at run time, and static loaded in memory in compil
 1. DATA PROTECTION 
 2. VALIDATION 
 3. CONTROL ACCESS 
-4. 
+
+
 # HOW TO ACHIEVE IT ?
  private ?
 
 by default, you should make all the fields/data members as [private] [no one can access it outside.] [only by getter or setter ]
-
 
 
 # MODIFIERS 2 TYPES [1=> ACCESS MODIFIER ,2 => ]
