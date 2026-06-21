@@ -1,14 +1,9 @@
 package Assignment2.FoodOdering;
 
-import May30.Abstract.Payment;
-
-public class CardPayment extends Payment {
-    public CardPayment(double balance) {
-        super(balance);
-    }
+public class CardPayment implements PaymentMode {
 
     @Override
-    public void pay() {
-
+    public void pay(Double amount) {
+        System.out.println("payment done by card ");
     }
 }

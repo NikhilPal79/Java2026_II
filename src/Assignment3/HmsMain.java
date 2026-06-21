@@ -1,4 +1,4 @@
-package Assignment3_Oops;
+package Assignment3;
 
 public class HmsMain {
     static void main(String[] args) {

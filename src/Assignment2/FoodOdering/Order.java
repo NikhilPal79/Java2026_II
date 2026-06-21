@@ -1,19 +1,29 @@
 package Assignment2.FoodOdering;
 
 public abstract class Order {
+    private int orderId;
+    private double orderAmount;
 
-    private final int orderId;
-    private final double amount;
-
-    public Order(int orderId, double amount) {
+    public Order(int orderId, double orderAmount) {
         this.orderId = orderId;
-        this.amount = amount;
+        this.orderAmount = orderAmount;
     }
 
-    abstract public void calculateFinalAmount();
 
-    public void printOderSummary() {
-        System.out.println("Order ID : " + orderId);
-        System.out.println("Amount : " + amount);
+    public void setOrderId(int orderId) {
+        this.orderId = orderId;
+    }
+
+    public double getOrderAmount() {
+        return orderAmount;
+    }
+
+
+
+    abstract void calculateFinalAmount();
+
+    public void printOrderSummary(){
+        System.out.println("Order ID: " + orderId);
+        System.out.println("Order Amount: " + orderAmount);
     }
 }

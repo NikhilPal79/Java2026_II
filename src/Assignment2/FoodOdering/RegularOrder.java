@@ -1,12 +1,19 @@
 package Assignment2.FoodOdering;
 
 public class RegularOrder extends Order {
-    public RegularOrder(int orderId, double amount) {
-        super(orderId, amount);
+
+
+    public RegularOrder(int orderId, double orderAmount) {
+        super(orderId, orderAmount);
     }
 
     @Override
-    public void calculateFinalAmount() {
-        System.out.println("Regular Order");
+    void calculateFinalAmount() {
+        System.out.println("final amount : " + getOrderAmount() );
+    }
+
+    @Override
+    public void printOrderSummary() {
+        super.printOrderSummary();
     }
 }

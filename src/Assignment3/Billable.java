@@ -1,4 +1,4 @@
-package Assignment3_Oops;
+package Assignment3;
 
 public interface Billable {
 

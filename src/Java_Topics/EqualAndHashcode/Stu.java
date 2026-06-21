@@ -18,8 +18,8 @@ public class Stu {
         return id == stu.id && Objects.equals(name, stu.name);
     }
 
-    /*@Override
+    @Override
     public int hashCode() {
         return Objects.hash(id, name);
-    }*/
+    }
 }
