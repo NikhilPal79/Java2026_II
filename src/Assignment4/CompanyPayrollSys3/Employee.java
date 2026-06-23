@@ -1,6 +1,6 @@
-package Assignment4.CompanyPayrollSys;
+package Assignment4.CompanyPayrollSys3;
 
-public abstract class Employee {
+public abstract class Employee{
 
     private final int empId;
     private final String firstName;
@@ -27,10 +27,17 @@ public abstract class Employee {
 
     abstract double calculatePay();
 
-
     public void printPaySlip(){
-        System.out.println("Print Slip Details : ");
-        System.out.println(calculatePay());
+        System.out.println("***** Print Slip *****");
+        System.out.println("Employee ID : " + empId);
+        System.out.println("First Name : " + firstName);
+        System.out.println("Department : " + department);
+        System.out.println("Gross Pay : " + calculatePay());
+    }
 
+    public void employeeInfo(){
+        System.out.println("Employee ID : "+empId);
+        System.out.println("First Name : "+firstName);
+        System.out.println("Department : "+department);
     }
 }

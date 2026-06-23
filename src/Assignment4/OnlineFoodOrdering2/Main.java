@@ -1,4 +1,4 @@
-package Assignment4.OnlineFoodOrdering;
+package Assignment4.OnlineFoodOrdering2;
 
 public class Main {
     static void main(String[] args) {
