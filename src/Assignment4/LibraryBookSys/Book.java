@@ -11,6 +11,10 @@ public abstract class Book {
         this.bookId = bookId;
         this.title = title;
         this.author = author;
+
+        if (price < 0) {
+            throw new IllegalArgumentException("Price cannot be negative : " + price);
+        }
         this.price = price;
     }
 
@@ -30,7 +34,7 @@ public abstract class Book {
         return price;
     }
 
-    abstract void borrowBook(String borrowerName);
+    abstract void borrowBook(String borrowerName) throws BookNotAvailableException;
 
 
     @Override

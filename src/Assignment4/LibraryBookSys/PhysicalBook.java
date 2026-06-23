@@ -3,20 +3,39 @@ package Assignment4.LibraryBookSys;
 public class PhysicalBook extends Book implements Returnable {
 
 
-    String shelfLocation = "upper";
-    int availableCopy = 5;
+    String shelfLocation;
+    int availableCopy;
 
-    public PhysicalBook(int bookId, String title, String author, double price) {
+    public PhysicalBook(int bookId, String title, String author, double price, String shelfLocation, int availableCopy) {
         super(bookId, title, author, price);
+        this.shelfLocation = shelfLocation;
+
+        if (availableCopy < 0 ) {
+            throw new IllegalArgumentException("Available copies can not be negative :  " + availableCopy);
+        }
+        this.availableCopy = availableCopy;
     }
 
+
+
     @Override
-    void borrowBook(String borrowerName) {
-        System.out.println(borrowerName + " Borrowing Physical Book " + "AvailableCopy : " + ( availableCopy -1 )  );
+    void borrowBook(String borrowerName) throws BookNotAvailableException {
+        if (availableCopy == 0) {
+            throw new BookNotAvailableException(getBookId() , getTitle());
+        }
+
+        availableCopy--;
+        System.out.println("Book Borrowed Successfully " );
+        System.out.println("Shelf Location: " + shelfLocation );
+        System.out.println("Remaining Copies: " + availableCopy );
+
     }
 
     @Override
     public void returnBook(String borrowerName) {
-        System.out.println(borrowerName + " Returning Physical Book " + "AvailableCopy : " + (availableCopy + 1 ) );
+        availableCopy++;
+        System.out.println("Book Return Successfully " );
+        System.out.println("Shelf Location: " + shelfLocation );
+        System.out.println("Available Copies: " + availableCopy );
     }
 }
