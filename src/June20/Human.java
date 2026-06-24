@@ -6,31 +6,32 @@ import java.util.Set;
 
 public class Human {
 
-    int  id;
     String name;
 
-    public Human(int id, String name) {
-        this.id = id;
+    public Human(String name) {
         this.name = name;
+    }
+
+    public String getName() {
+        return name;
     }
 
     @Override
     public boolean equals(Object o) {
         if (o == null || getClass() != o.getClass()) return false;
         Human human = (Human) o;
-        return id == human.id && Objects.equals(name, human.name);
+        return Objects.equals(name, human.name);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, name);
+        return Objects.hashCode(name);
     }
 
     @Override
     public String toString() {
         return "Human{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "name='" + name + '\'' +
                 '}';
     }
 }

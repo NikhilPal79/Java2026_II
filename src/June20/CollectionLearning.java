@@ -1,10 +1,6 @@
 package June20;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
-
+import java.util.*;
 
 
 public class CollectionLearning {
@@ -22,6 +18,7 @@ public class CollectionLearning {
         names2.add("harry");
         names2.add("potter");
         names2.add("black");
+        System.out.println(names2.addAll(0, names));
 
         names2.addAll(1,names);
         System.out.println(names2);
