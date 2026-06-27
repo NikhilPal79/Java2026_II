@@ -9,11 +9,11 @@ public class Test {
     static void main(String[] args) {
 
 
-        List<Integer> num = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
+        String s = "ABC";
+        String s1 = "abc";
+        String s2 = "abc";
 
-        List<Integer> nums = new ArrayList<>(num);
-        List<Integer> nums1 = new LinkedList<>(num);
-        System.out.println(nums1);
-        System.out.println(nums1);;
+        System.out.println(s.compareTo(s1));
+        System.out.println(s1.compareTo(s2));
     }
 }
