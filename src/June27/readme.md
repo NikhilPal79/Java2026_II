@@ -23,5 +23,7 @@
 
 # Anonymous Class and its implementation 
 
+if we have interface and want to implement his method without using implements [we can use Anonymous class ]
+
 
 
