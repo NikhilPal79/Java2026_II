@@ -19,3 +19,4 @@
 3. METHOD 
 
 # https://fakeapi.platzi.com/en/rest/products/ [for testing purpose]
+# https://fakestoreapi.com/docs#tag/Products/operation/addProduct [for testing purpose]
