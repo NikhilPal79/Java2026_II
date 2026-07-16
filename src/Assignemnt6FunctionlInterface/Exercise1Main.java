@@ -27,7 +27,7 @@ public class Exercise1Main {
         // ─── TASK 3: Transform Alice into a summary String ───────────────
         System.out.println("\n--- Task 3: Summary of Alice ---");
         Employee alice = employees.get(0);
-        String summary = service.transform(alice,
+        String summary = service.transform(alice)
         );
         System.out.println(summary);
 
