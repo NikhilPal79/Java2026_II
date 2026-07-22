@@ -10,6 +10,7 @@
 1. statelessness [client/server are unaware of the state of each other]
 
 
+# POSTMAN [ TESTING TOOL ]
 
 
 # HTTP METHOD 
@@ -18,7 +19,7 @@
 3. PUT 
 4. PATCH
 5. DELETE 
-6. QUERY [NEW IN 2026] 
+6. QUERY [NEW IN 2026] [filer the query by adding some parameters ]
 
 # URL [Uniform Resource Locator ]
 1. BASE URL
