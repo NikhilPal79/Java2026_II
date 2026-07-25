@@ -34,5 +34,5 @@ UI / Business Logic / Data
 # ARTIFACT [name of the project]
 
 
-# How to create beans through XML file 
+# How to create beans through XML file [in lecture===> see spring boot app July 18]
 
