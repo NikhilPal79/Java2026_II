@@ -27,4 +27,7 @@
 # add in XML ---> debug = true [to know why application didn't work ]
 
 
+# CommandLineRunner [we can use commandLineRunner if Autowire is giving issue ]
+
+
 
