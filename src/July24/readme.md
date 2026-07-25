@@ -21,7 +21,7 @@
 
 # SpringBootApplication Annotation
 1. @EnableAutoConfiguration[it try to configure everything in the classpath,weather you put annotation or not]
-2. @ComponentScan [allow spring boot to go through your project and look for annotation @component, @configuration, @repository]
+2. @ComponentScan [allow spring boot to go through your project and look for annotation @component, @configuration, @repository, @Service @ Controller,@RestController]
 
 
 # add in XML ---> debug = true [to know why application didn't work ]
