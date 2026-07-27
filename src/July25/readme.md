@@ -11,6 +11,9 @@
 3. Request
 4. Session
 
+
+# @Value annotation come from springframework not from Lombok
+
 # Ambiguity Problem [Interview ]
 1. use @Qualifirer 
 
@@ -27,6 +30,11 @@
 
 
 # LIFE CYCLE OF BEAN
+
+
+# IN CLASS EXERCISE 
+1.
+
 
 
 
