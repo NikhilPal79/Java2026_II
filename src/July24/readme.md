@@ -15,11 +15,13 @@
 
 # So they created springboot 
 
-# Starter poms [and a parent pom ] [interview][]
+# Starter poms [and parent pom ] [interview]
+
+# PARENT POM [is actually used by spring boot to define all the compatible version and libraries also define certain library too]
 
 
 
-# SpringBootApplication Annotation
+# SpringBootApplication Annotation [Combination of 2]
 1. @EnableAutoConfiguration[it try to configure everything in the classpath,weather you put annotation or not]
 2. @ComponentScan [allow spring boot to go through your project and look for annotation @component, @configuration, @repository, @Service @ Controller,@RestController]
 
@@ -27,7 +29,9 @@
 # add in XML ---> debug = true [to know why application didn't work ]
 
 
-# CommandLineRunner [we can use commandLineRunner if Autowire is giving issue ]
+# CommandLineRunner 
+CommandLineRunner when you need to execute a specific block of code exactly once
+immediately after the application context has fully loaded but before the application starts accepting web traffic or user requests
 
 
 

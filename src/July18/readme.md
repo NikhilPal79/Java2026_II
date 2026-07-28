@@ -47,7 +47,7 @@ employee.email=Adam@gmail.com}]
 # People find problems in creating beans in beans.xml so they abandoned them [moved to Java-Based configuration called AppConfig]
 
 
-# When use Java-Based Configuration[use] [new AnnotationConfigApplicationContext(AppConfig.class);]
+# When use Java-Based Configuration [use] [new AnnotationConfigApplicationContext(AppConfig.class);]
 
 
 
