@@ -32,6 +32,9 @@
 # LIFE CYCLE OF BEAN
 
 
+# Password should not go in YAML
+
+
 # IN CLASS EXERCISE 
 1.
 
