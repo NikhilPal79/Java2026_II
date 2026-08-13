@@ -16,4 +16,13 @@
 
 
 
+# How to handle system slow down ?
+1. ask them the reason 
+2. database query [optimize your query]
+3. logic issue []
+
+
+
+# Pagination []
+
 
