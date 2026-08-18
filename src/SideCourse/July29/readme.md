@@ -20,10 +20,11 @@
 # SQL [use to communicate to RDBMS]
 
 # Type of SQL [Structured Query Language ]
-1. DDL [Data Language]
-2. DML [Data Manipulation Language]
-3. DCL [Data Control Language]
-4. TCL [Transaction Control Language] [manage transcation]
+1. DDL [Data Definition Language]
+2. DQL [Data Query Language ]
+3. DML [Data Manipulation Language]
+4. DCL [Data Control Language]
+5. TCL [Transaction Control Language] [manage transcation]
 
 
 https://dev.mysql.com/downloads/workbench/ [download mysql]
@@ -67,8 +68,8 @@ select * from employees where address IS NOT NULL;
 9. WHERE WITH CONDITION 1  AND CONDITION 2
 10. WHERE ____ IN [TWO FILTER FROM SAME COLUMNS ]  
 11. SORT [ORDER BY ASC, DESC]
-12. LIMIT [IF YOU NEED ONLY FIRST 5 ]
-13. OFFSET 10 [SKIPPING HOW MANY RECORDS ]
+12. LIMIT [IF YOU NEED ONLY FIRST 5 ] [interview]
+13. OFFSET 10 [SKIPPING HOW MANY RECORDS ] [interview]
 14. DESCRIBE DATABASE [WILL SHOW YOU ALL SCHEMA FOR DATABASE]
 
 

@@ -20,7 +20,6 @@
 
 # Lambda [is serverless server]
 
-
 # Container [dependency at which your application run on binds in single  thing called container ]
 
 # Docker [create the docker image, then image convert into container ]
@@ -44,7 +43,7 @@
 
 # Amazon alternate
 # RDS [RELATIONAL DATABASE SERVICE ]
-# DynamoDB [similar to monoDB] 
+# DynamoDB [similar to mongoDB] 
 
 # MONITORING AND OBSERVABILITY
 1. CloudWatch [this provides us the service of monitoring ][how error happens, how many req are there, putting alarms ]

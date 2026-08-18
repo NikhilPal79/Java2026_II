@@ -5,27 +5,24 @@
 2. create Index index_name on Student(Email, FirstName) --------------> create a composite index 
 3. Drop Index index_name on Students ; ---- drop the index 
 
-
 # TRANSACTIONS [sequence of SQL operations that either all succeed or all files ] [interviews ]
 
 # ACID PROPERTIES 
 1. A - ALL OR NONE [all operation pass or none ]
 2. C - Consistency [db move from one valid state to another state ]
-3. I - Isolation [Concurrent txs dont interfere with each other ] [diffrent form parallel]
-4. D - Durability [data should be durable to stay there ]
-
-
+3. I - Isolation [Concurrent transactions don't interfere with each other ] [diffrent form parallel]
+4. D - Durability [data should be durable to stay there, even after system failure ]
 
 # BEGIN Transaction;
 
-
-
+# DIFFERENCE BETWEEN SQL /NON-SQL
+1. Sql   -> database -> table      -> row,columns -> index
+2. NoSql -> database -> collection -> documents   -> index
 
 # NoSql ---[when data not having a structure ]
 --- Document----[MongoDB, Couchbase, DynamoDb ]
 --- Key-Value ---[Redis, Memcached ]
 --- Search ----[elasticSearch]
-
 
 # MongoDb [it stores data in JSON like documents, it is designed for flexibility and stability]
 
