@@ -31,6 +31,8 @@ https://dev.mysql.com/downloads/workbench/ [download mysql]
 database-1.cdq0q0imew01.us-east-2.rds.amazonaws.com [url]
 admin
 pragra123
+
+
 create database pragar;
 use employee_db;
 use sys;

@@ -16,7 +16,7 @@
 # BEGIN Transaction;
 
 # DIFFERENCE BETWEEN SQL /NON-SQL
-1. Sql   -> database -> table      -> row,columns -> index
+1. SQL   -> database -> table      -> row,columns -> index
 2. NoSql -> database -> collection -> documents   -> index
 
 # NoSql ---[when data not having a structure ]
@@ -24,6 +24,6 @@
 --- Key-Value ---[Redis, Memcached ]
 --- Search ----[elasticSearch]
 
-# MongoDb [it stores data in JSON like documents, it is designed for flexibility and stability]
+# MongoDb [it stores data in JSON {BSON}like documents, it is designed for flexibility and stability]
 
 
