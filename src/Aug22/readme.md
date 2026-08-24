@@ -2,4 +2,4 @@
 
 # Reactive approach [WEB CLIENT ]
 1. MONO ---> ONE RESPONSE 
-2. FLUX --->  MORE THAN ONE REPSONSE 
+2. FLUX ---> MORE THAN ONE REPSONSE 
