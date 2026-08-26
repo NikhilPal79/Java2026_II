@@ -12,7 +12,7 @@ permission
 7 - all permissions
 
 
-# grep java file
+# grep Java file
 -v - which does not match the keyword
 -n - to print the line numbers
 -i - to rule out upper case and lower case
