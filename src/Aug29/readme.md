@@ -24,7 +24,20 @@
 # Cons 
 1. 
 
+
+
+
+Monolith ----> Service Oriented Architecture (SOA)[failed]  ------> Microservices 
+
+
+
 # MicroServices  [design approach that builds a single application as a collection of independent services that run their own processes and talk through APIs]
-1. why we need them ? []
+# Why we need them ? []
+# Principals
+1. Single Responsibility Model [should focus on one domain ]
+2. Autonomy [every individual app should be independent of other application ]
+3. Independently Deployable []
+4. Agility [easy to make changes and create ]
+5. Resilient [recover itself and did not crash if something fails ]
 
 
