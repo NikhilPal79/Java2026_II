@@ -41,3 +41,28 @@ Monolith ----> Service Oriented Architecture (SOA)[failed]  ------> Microservice
 5. Resilient [recover itself and did not crash if something fails ]
 
 
+
+# Scaling 
+1. Vertical [ we increase the hardware ]
+2. Horizontal [ we're increasing the no of instance ]
+
+# Case [on black Friday, no of users are same but order increased, so we go for horizontal scaling of orders component ]
+
+# API GATEWAY [routing, authentication, authorization, rate limiting, load balancing ]
+
+
+# DISCOVERY SERVER [instances send the heartbeat to discovery server,if don't get heartbeat of instances in 30 sec, it will delete the instance ]
+# PROS
+1. 
+
+
+# CONS
+1. Operations are super tough [solution -> Kubernates , ECS]
+2. Tracing in very complex [which instance is giving problem ][solution-> Registery(SERVICE REGISTERY)]
+3. Transaction Management [All complete or roll back ] [complex to do]
+
+# These problems need to solve [to do we need to use DevOps tools]
+
+
+
+
