@@ -65,4 +65,37 @@ Monolith ----> Service Oriented Architecture (SOA)[failed]  ------> Microservice
 
 
 
+# EurekaServer
+spring:
+application:
+name: DiscoveryClient
+
+server:
+port: 8087
+
+eureka:
+client:
+fetch-registry: false
+register-with-eureka: false
+
+
+
+# EurekaDiscoveryClient YAML config
+spring:
+application:
+name: User-Server
+
+server:
+port: 8089
+
+eureka:
+client:
+service-url:
+defaultZone: http://localhost:8087/eureka/
+
+instance:
+prefer-ip-address: true
+
+
+
 
